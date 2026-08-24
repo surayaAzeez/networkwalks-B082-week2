@@ -19,27 +19,27 @@ Conducted passive reconnaissance against the target domain (`networkwalks.com`) 
 
 * **Task 1: Domain Registration (`whois`)**  
   Retrieved domain registration, creation/expiry dates, and primary name servers[cite: 2, 3].  
-  ![WHOIS Output](screenshots/task1-whois.png)
+  ![WHOIS Output](image_5bc8c3.png)
 
 * **Task 2: Web Technology Fingerprinting (`whatweb`)**  
   Identified web application server details, CMS version (WordPress), and active plugins[cite: 2, 3].  
-  ![WhatWeb Output](screenshots/task2-whatweb.png)
+  ![WhatWeb Output](image_5bc8df.png)
 
 * **Task 3: Domain IP Resolution (`nslookup`)**  
   Resolved the public domain name to its corresponding public IP address[cite: 2, 3].  
-  ![Nslookup Output](screenshots/task3-nslookup.png)
+  ![Nslookup Output](image_5bc920.png)
 
 * **Task 4: HTTP Header Inspection (`curl -I`)**  
   Analyzed server response headers and identified exposed REST API endpoints[cite: 2, 3].  
-  ![cURL Output](screenshots/task4-curl.png)
+  ![cURL Output](image_5bc926.png)
 
 * **Task 5: WAF Detection (`wafw00f`)**  
   Identified active Web Application Firewall protection (ModSecurity WAF)[cite: 2, 3].  
-  ![Wafw00f Output](screenshots/task5-wafw00f.png)
+  ![Wafw00f Output](image_5bcc27.png)
 
 * **Task 6: DNS Record Enumeration (`dnsrecon`)**  
   Enumerated DNS infrastructure, including NS, MX, SOA, and SPF records[cite: 2, 3].  
-  ![DNSRecon Output](screenshots/task6-dnsrecon.png)
+  ![DNSRecon Output](task6-dnsrecon.png)
 
 ---
 
@@ -48,11 +48,11 @@ Executed active network discovery on the local area network (LAN)[cite: 2]:
 
 * **Task 1–6: Local Host & Subnet Discovery (`nmap -sn`)**  
   Identified local network range via Windows `ipconfig` and ran a Ping Scan using Zenmap (Nmap GUI) to discover active IP/MAC addresses[cite: 1, 2].  
-  ![Zenmap Ping Scan](screenshots/zenmap-scan.png)
+  ![Zenmap Ping Scan](image_5bd083.png)
 
 * **Task 7: Network Topology Mapping**  
   Generated and exported the local subnet visual network topology map[cite: 1, 2].  
-  ![Zenmap Topology Map](screenshots/zenmap-topology.png)
+  ![Zenmap Topology Map](image_5bd06a.png)
 
 ---
 
